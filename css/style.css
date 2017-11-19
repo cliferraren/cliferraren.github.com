@@ -63,6 +63,49 @@ p{
 	color: #74a4e8;
 }
 
+/* Media Queries */
+@media(max-width: 768px){
+  html ,
+  .per_info,
+  .profile_pic,
+  h1,
+  h5,
+  p,
+  .line-break,
+  .social-icons,
+    float:none;
+    text-align:center;
+    width:100%;
+  
+
+  .per_info{
+	width: 300px;
+	height: 400px;
+	border-radius: 3px;
+	background:rgba(0,0,0,0.4);
+	padding: 40px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 75px;
+	text-align: center;
+	
+
+	.profile_pic{
+	margin: 6px;
+	width: 150px;
+	height: 150px;
+
+	h1{
+   	font-weight: 100;
+    letter-spacing: 4px;
+    font-size: 35px;
+}
+
+p{
+	font-weight: 150;
+    letter-spacing: 1px;
+}
+}
 
 
 
